@@ -19,6 +19,7 @@ const MessageScheme: Schema<Message> = new Schema({
     }
 })
 
+// # Change , to ;
 
 export interface User extends Document {
     username: string,
